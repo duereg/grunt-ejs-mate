@@ -1,6 +1,8 @@
 # grunt-ejs-mate
 
-A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates.
+A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates, using [ejs-mate](http://npmjs.org/package/ejs-mate).
+
+A fork of [grunt-ejs](https://github.com/shama/grunt-ejs).
 
 ## Getting Started
 
@@ -82,11 +84,6 @@ grunt.initConfig({
 ```
 
 ## Release History
-
-* 0.3.0
-  * update ejs to 2.2.3
-  * fix file options
-* 0.2.0 update ejs to 1.0.0
 * 0.1.0 initial release
 
 ## License
