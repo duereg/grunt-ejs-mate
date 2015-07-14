@@ -1,7 +1,7 @@
 {
   "name": "grunt-ejs-mate",
   "description": "A grunt task for rendering ejs templates using ejs-mate.",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "homepage": "https://github.com/duereg/grunt-ejs-mate",
   "author": {
     "name": "Matt Blair",
