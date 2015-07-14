@@ -1,38 +1,46 @@
 {
-  "name": "grunt-ejs",
-  "description": "A grunt task for rendering ejs templates.",
-  "version": "0.3.0",
-  "homepage": "https://github.com/shama/grunt-ejs",
+  "name": "grunt-ejs-mate",
+  "description": "A grunt task for rendering ejs templates using ejs-mate.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/duereg/grunt-ejs-mate",
   "author": {
-    "name": "Kyle Robinson Young",
-    "email": "kyle@dontkry.com",
-    "url": "http://dontkry.com"
+    "name": "Matt Blair",
+    "email": "duereg@hotmail.com",
+    "url": "http://blog.mattblair.co"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shama/grunt-ejs.git"
+    "url": "git://github.com/duereg/grunt-ejs-mate.git"
   },
   "bugs": {
-    "url": "https://github.com/shama/grunt-ejs/issues"
+    "url": "https://github.com/duereg/grunt-ejs-mate/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/shama/grunt-ejs/blob/master/LICENSE-MIT"
+      "url": "https://github.com/duereg/grunt-ejs-mate/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "ejs": "^2.2.3"
+    "ejs-mate": "^2.2.0"
   },
   "devDependencies": {
     "grunt": "~0.4.0"
   },
   "keywords": [
     "gruntplugin",
-    "ejs"
+    "ejs",
+    "grunt",
+    "ejs-mate",
+    "partials",
+    "block",
+    "layout",
+    "templating",
+    "templates",
+    "plugin"
   ],
   "files": [
     "tasks",

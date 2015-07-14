@@ -1,16 +1,16 @@
-# grunt-ejs
+# grunt-ejs-mate
 
 A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates.
 
 ## Getting Started
 
 Install this grunt plugin next to your project's
-[Gruntfile.js](http://gruntjs.com/getting-started) with: `npm install grunt-ejs --save-dev`.
+[Gruntfile.js](http://gruntjs.com/getting-started) with: `npm install grunt-ejs-mate --save-dev`.
 
 Then add this line to your project's `Gruntfile.js`:
 
 ```javascript
-grunt.loadNpmTasks('grunt-ejs');
+grunt.loadNpmTasks('grunt-ejs-mate');
 ```
 
 ## Documentation
@@ -83,7 +83,7 @@ grunt.initConfig({
 
 ## Release History
 
-* 0.3.0 
+* 0.3.0
   * update ejs to 2.2.3
   * fix file options
 * 0.2.0 update ejs to 1.0.0
@@ -91,5 +91,5 @@ grunt.initConfig({
 
 ## License
 
-Copyright (c) 2014 Kyle Robinson Young  
+Copyright (c) 2015 Matt Blair
 Licensed under the MIT license.
