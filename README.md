@@ -21,7 +21,7 @@ Add the task to your config and specify the destination for the compiled file:
 
 ```javascript
 grunt.initConfig({
-  ejs: {
+  'ejs-mate': {
     all: {
       src: ['app/**/*.ejs', '!app/partials/**/*'],
       dest: 'dist/',
@@ -38,7 +38,7 @@ Use `options` to pass data and helpers to the templates:
 **Gruntfile.js**:
 ```js
 grunt.initConfig({
-  ejs: {
+  'ejs-mate': {
     all: {
       options: {
         title: 'My Website',
@@ -71,7 +71,7 @@ Ideally all your helpers and non-app specific config should be another module an
 
 ```js
 grunt.initConfig({
-  ejs: {
+  'ejs-mate': {
     all: {
       options: grunt.util._.merge(require('my-helpers'), {
         title: 'My Website'

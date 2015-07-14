@@ -3,7 +3,7 @@ var renderFile = require('ejs-mate');
 module.exports = function(grunt) {
   'use strict';
 
-  grunt.registerMultiTask('ejs', 'compile ejs templates', function() {
+  grunt.registerMultiTask('ejs-mate', 'compile ejs templates', function() {
     var options = this.options();
     var done = this.async();
 
