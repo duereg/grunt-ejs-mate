@@ -16,11 +16,13 @@ module.exports = function(grunt) {
       // prevents options declared / overrided
       // on file level to be moved to the next file
       options = this.options();
-      var commonJs = options.commonJs ? 'module.exports = ':'';
       options.filename = file.src[0];
 
-      ejsMate.compile(file.src[0], options, function(err, result) {
-        if (err) { done(err); }
+      var commonJs = options.commonJs ? 'module.exports = ':'';
+      var ejsSource = file.src.map(grunt.file.read).join('');
+
+      ejsMate.compile(ejsSource, options, function(err, result) {
+        if (err) { return done(err); }
 
         grunt.file.write(file.dest, commonJs + result);
         grunt.log.ok('Wrote ' + file.dest);
