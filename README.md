@@ -88,5 +88,5 @@ grunt.initConfig({
 
 ## License
 
-Copyright (c) 2015 Matt Blair
+Copyright (c) 2015-2019 Matt Blair
 Licensed under the MIT license.
